@@ -6,9 +6,24 @@ body{
     background-color: rgb(150, 211, 10);
 }
 
-.quem-somos{
-    background-color: rgb(113, 113, 161);
-    color: white;
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.sobre{
+    color: rgb(0, 0, 0);
+}
+
+.alinhamento{
+    text-align: center;
+}
+
+.img{
+   border-radius: 50%;
 }
 
 .margin{
@@ -16,7 +31,7 @@ body{
     padding-top: 10px;
 }
 
-.parceiros{
+.tecnologias{
     background-color: rgb(114, 114, 209);
     color: white;
 }

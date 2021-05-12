@@ -6,98 +6,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Minha Pagina Bootstrap</title>
   </head>
   <body>
+    <!--Menu-->
     <nav class="navbar navbar-expand-lg navbar-light margin">
-      <a class="navbar-brand" href="#"
-        ><img src="img/Play-Games-icon.png" alt="" width="220" height="130" />
-      </a>
-
+      <a class="navbar-brand" href="#"> </a>
       <div class="collapse navbar collapse">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav alinhamento">
           <li class="nav-item">
-            <a class="nav-link" href="#quemsomos">Quem somos</a>
+            <a class="nav-link" href="#sobre">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#parceiros">Parceiros</a>
+            <a class="nav-link" href="#tecnologias">Tecnologias</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#servicos">Serviços</a>
+            <a class="nav-link" href="#descricao">Descrição</a>
           </li>
         </ul>
       </div>
     </nav>
+    <!--/Menu-->
 
-    <section id="quemsomos">
-      <div class="container-fluid quem-somos text-center margin">
-        <h3 class="margin">Quem somos</h3>
+    <!--Sobre-->
+    <section id="sobre">
+      <div class="container-fluid sobre alinhamento margin">
+        <h3 class="margin">SOBRE</h3>
         <img
-          src="img/pexels-garrett-johnson-3800795.jpg"
-          class="rounded-circle"
-          alt=""
+          class="img"
+          src="img/rafael.jpg"
+          alt="Rafael"
           width="400"
           height="400"
         />
-        <h3>Somo um time comprometido com os resultados</h3>
+        <h3>
+          Eu me chamo Rafael e estou iniciando a minha jornada como
+          Desenvolvedor.
+        </h3>
       </div>
     </section>
+    <!--/Sobre-->
 
-    <section id="parceiros">
-      <div class="container-fluid text-center margin parceiros">
-        <h3 class="margin">PARCEIROS</h3>
-        <div class="container">
+    <!--Tecnologias-->
+    <section id="tecnologias">
+      <div class="container-fluid text-center margin tecnologias">
+        <h3 class="alinhamento margin">TECNOLOGIAS</h3>
+        <p class="alinhamento">
+          Tecnologias que utilizei para criar essa página.
+        </p>
+        <div class="container alinhamento">
           <div class="row">
             <div class="col-lg-4">
-              <img src="img/pexels-pixabay-163036.jpg" alt="" width="100%" />
+              <img src="img/html.png" alt="HTML 5" width="270" height="300" />
             </div>
-            <div class="sol-lg-4">
-              <img src="img/download.png" alt="" width="100%" />
+            <div class="col-lg-4">
+              <img src="img/css.png" alt="CSS3" width="250" height="300" />
             </div>
-            <div class="sol-lg-4">
+            <div class="col-lg-4">
               <img
-                src="img/33448f6060a9e6ade47f64307072a93d.jpg"
-                alt=""
-                width="100%"
+                src="img/bootstrap.png"
+                alt="BootsTrap"
+                width="300"
+                height="300"
               />
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!--/Tecnologias-->
 
-    <section id="servicos">
-      <div class="container-fluid text-center margin servicos">
-        <h3 class="margin">SERVIÇOS</h3>
+    <!--Descrição-->
+    <section id="descricao">
+      <div class="container-fluid text-center margin descricao">
+        <h3 class="alinhamento margin">DESCRIÇÃO</h3>
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
+              <h2>HTML 5</h2>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos,
-                ut?
+                HTML5 (Hypertext Markup Language, versão 5) é uma linguagem de
+                marcação para a World Wide Web e é uma tecnologia chave da
+                Internet, originalmente proposto por Opera Software. É a quinta
+                versão da linguagem HTML.
               </p>
-              <img src="" alt="" width="100%" />
             </div>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ut?
-            </p>
+
             <div class="col-lg-4">
-              <img src="" alt="" width="100%" />
-            </div>
-            <div class="col-lg-4">
+              <h2>CSS 3</h2>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos,
-                ut?
+                Cascading Style Sheets (CSS) é um mecanismo para adicionar
+                estilo (cores, fontes, espaçamento, etc.) a um documento web. O
+                código CSS pode ser aplicado diretamente nas tags ou ficar
+                contido dentro das tags style. Também é possível, em vez de
+                colocar a formatação dentro do documento, criar um link para um
+                arquivo CSS que contém os estilos.
               </p>
-              <img src="" alt="" width="100%" />
+            </div>
+
+            <div class="col-lg-4">
+              <h2>BootsTrap</h2>
+              <p>
+                Bootstrap é um framework web com código-fonte aberto para
+                desenvolvimento de componentes de interface e front-end para
+                sites e aplicações web usando HTML, CSS e JavaScript, baseado em
+                modelos de design para a tipografia, melhorando a experiência do
+                usuário em um site amigável e responsivo.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!--/Descrição-->
 
-    <footer class="container-fluid text-center bg-footer margin">
-      <p>Desenvolvido por Rafael Momberg de Andrade</p>
+    <!--Footer-->
+    <footer class="container-fluid bg-footer margin">
+      <p class="alinhamento">
+        Desenvolvido por
+        <a href="https://github.com/UlverGuara" target="_blank"
+          >Rafael Momberg de Andrade</a
+        >
+      </p>
     </footer>
+    <!--/Footer-->
   </body>
 </html>
